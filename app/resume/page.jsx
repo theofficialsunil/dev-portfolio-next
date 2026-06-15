@@ -194,13 +194,6 @@ export default function ResumePage() {
               </div>
             </CardContent>
           </Card>
-
-          <div className="text-center text-sm text-slate-500 dark:text-gray-500 print:hidden">
-            <p className="flex items-center justify-center gap-2">
-              <FileText className="w-4 h-4" />
-              Add your final PDF as <code>public/resume.pdf</code>.
-            </p>
-          </div>
         </div>
       </section>
     </main>
