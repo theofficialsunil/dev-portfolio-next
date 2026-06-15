@@ -1,36 +1,135 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Sunil Nagar Portfolio
+
+Personal developer portfolio built with **Next.js**, **JavaScript**, **Tailwind CSS**, and **shadcn/ui**.
+
+Live: [https://snagar.dev](https://snagar.dev)
+
+## Overview
+
+This portfolio showcases my projects, technical skills, competitive programming profiles, achievements, education, resume, and contact details.
+
+## Features
+
+- Responsive portfolio website
+- Dark mode support
+- Projects showcase
+- Coding profiles section
+- Codeforces and LeetCode data integration with fallback data
+- Achievements page
+- Resume preview and PDF download
+- Contact form using mail client
+- Clean UI built with shadcn/ui components
+
+## Tech Stack
+
+- **Framework:** Next.js App Router
+- **Language:** JavaScript / JSX
+- **Styling:** Tailwind CSS
+- **UI Components:** shadcn/ui
+- **Icons:** lucide-react
+- **Theme:** next-themes
+- **Deployment:** Vercel
+
+## Pages
+
+- `/` - Home
+- `/about` - About
+- `/skills` - Technical Skills
+- `/projects` - Featured Projects
+- `/coding-profiles` - Competitive Programming Profiles
+- `/achievements` - Contest Achievements
+- `/education` - Education
+- `/resume` - Resume
+- `/contact` - Contact
+
+## Projects Featured
+
+- Smart Adaptive Load Balancer
+- Shortify - Smart URL Shortener & Analytics
+- WriteSpace - Full-Stack Blogging Platform
 
 ## Getting Started
 
-First, run the development server:
+Clone the repository:
+
+```bash
+git clone https://github.com/theofficialsunil/dev-portfolio-next.git
+cd dev-portfolio-next
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```txt
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Build
 
-## Learn More
+```bash
+npm run build
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Start Production Server
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+npm run start
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Folder Structure
 
-## Deploy on Vercel
+```txt
+app/
+  about/
+  achievements/
+  api/
+  coding-profiles/
+  contact/
+  education/
+  projects/
+  resume/
+  skills/
+  layout.js
+  page.js
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+components/
+  ui/
+  Footer.jsx
+  Hero.jsx
+  Navigation.jsx
+  ThemeProvider.jsx
+  ThemeToggle.jsx
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+data/
+  portfolio.js
+
+public/
+  resume.pdf
+```
+
+## Deployment
+
+This project is deployed on Vercel and connected to the custom domain:
+
+```txt
+https://snagar.dev
+```
+
+## Author
+
+**Sunil Nagar**
+
+- GitHub: [theofficialsunil](https://github.com/theofficialsunil)
+- LinkedIn: [sunil-n-03b163320](https://www.linkedin.com/in/sunil-n-03b163320/)
+- Portfolio: [snagar.dev](https://snagar.dev)
