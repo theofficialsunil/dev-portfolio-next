@@ -29,7 +29,7 @@ export const projects = [
       "p1.avif",
     tags: ["Node.js", "Express", "Next.js", "TypeScript", "WebSocket", "k6"],
     github: "https://github.com/theofficialsunil/smart-load-balancer",
-    demo: "",
+    demo: "https://smart-load-balancer.vercel.app/",
   },
   {
     title: "Shortify - Smart URL Shortener & Analytics",
@@ -59,7 +59,7 @@ export const education = [
     institution: "Indian Institute of Information Technology, Surat",
     location: "Surat, Gujarat",
     period: "Aug. 2024 - May 2028",
-    gpa: "8.19/10.0 CGPA",
+    gpa: "8.16/10.0 CGPA",
     description:
       "Currently pursuing undergraduate studies in Computer Science with focus on data structures, algorithms, full-stack development, databases, and core computer science fundamentals.",
     coursework: [
@@ -124,7 +124,7 @@ export const resumeSections = {
   summary:
     "CSE undergraduate at IIIT Surat focused on full-stack development, data structures and algorithms, and competitive programming. Built projects using Next.js, Node.js, PostgreSQL, Prisma, MongoDB, Redis, Docker, WebSocket, and modern UI tooling. Strong interest in scalable systems, software engineering fundamentals, and algorithmic problem solving.",
   skills: [
-    "C++, TypeScript, JavaScript, Python, Java, SQL",
+    "C++, TypeScript, JavaScript, Python, SQL",
     "Next.js, React, Tailwind CSS, shadcn/ui",
     "Node.js, Express.js, REST APIs, Auth.js, NextAuth, Zod",
     "PostgreSQL, MongoDB, MySQL, Prisma ORM",
@@ -136,7 +136,7 @@ export const resumeSections = {
 export const skills = [
   {
     title: "Languages",
-    items: ["C++", "TypeScript", "JavaScript", "Python", "Java", "SQL"],
+    items: ["C++", "TypeScript", "JavaScript", "Python", "SQL"],
   },
   {
     title: "Frontend Development",
@@ -160,6 +160,7 @@ export const skills = [
       "Data Structures and Algorithms",
       "System Design",
       "Load Balancing",
+      "Object-Oriented Programming",
       "RBAC",
       "OAuth",
       "WebSocket",
