@@ -4,6 +4,7 @@ import { Navigation } from "@/components/Navigation";
 import { ThemeToggle } from "@/components/ThemeToggle";
 import { Footer } from "@/components/Footer";
 import { TooltipProvider } from "@/components/ui/tooltip"
+import { Analytics } from "@vercel/analytics/next"
 
 export default function RootLayout({ children }) {
     return (
@@ -11,6 +12,7 @@ export default function RootLayout({ children }) {
             <body>
                 <ThemeProvider>
                     <Navigation />
+                    <Analytics />
                     <ThemeToggle />
                     <TooltipProvider>
                         {children}
